@@ -1,0 +1,22 @@
+{
+  "name": "excel-js",
+  "version": "1.0.0",
+  "description": "Clone Excel App on JS",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "excel",
+    "webpack"
+  ],
+  "private": true,
+  "author": "Aleksey Belchenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
