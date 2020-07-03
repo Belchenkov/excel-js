@@ -1,4 +1,3 @@
-import './module';
 import './scss/index.scss';
 
-console.log('Works')
+console.log('Works');
