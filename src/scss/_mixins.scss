@@ -24,3 +24,8 @@
     cursor: pointer;
   }
 }
+
+@mixin clr-bd-top-left() {
+  border-top: 0;
+  border-left: 0;
+}
