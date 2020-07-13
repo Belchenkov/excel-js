@@ -29,3 +29,9 @@
   border-top: 0;
   border-left: 0;
 }
+
+@mixin clr-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
