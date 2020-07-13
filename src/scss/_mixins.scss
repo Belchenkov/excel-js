@@ -1,0 +1,37 @@
+@mixin button($color: green) {
+  height: 32px;
+  min-width: 32px;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  color: rgba(0, 0, 0, .7);
+  transition: all .3s ease-out;
+  border-radius: 50%;
+  overflow: hidden;
+
+  & i {
+    font-size: 18px;
+  }
+
+  &:active,
+  &.active {
+    color: $color;
+  }
+  
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}
+
+@mixin clr-bd-top-left() {
+  border-top: 0;
+  border-left: 0;
+}
+
+@mixin clr-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
