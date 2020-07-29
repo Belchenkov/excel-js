@@ -13,7 +13,6 @@ export class Formula extends ExcelComponent {
 
     }
 
-
     toHTML() {
         return `
             <div class="info">fx</div>
